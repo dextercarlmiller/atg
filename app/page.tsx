@@ -1,7 +1,19 @@
+import Hero from "@/components/home/Hero";
+import ServicesOverview from "@/components/home/ServicesOverview";
+import WhyATG from "@/components/home/WhyATG";
+import Testimonials from "@/components/home/Testimonials";
+import CTABanner from "@/components/ui/CTABanner";
+import BlogPreview from "@/components/home/BlogPreview";
+
 export default function Home() {
   return (
-    <div className="pt-20">
-      <p className="text-center py-20 text-text-secondary">Homepage coming soon...</p>
+    <div className="pt-16 lg:pt-20">
+      <Hero />
+      <ServicesOverview />
+      <WhyATG />
+      <Testimonials />
+      <CTABanner />
+      <BlogPreview />
     </div>
   );
 }
