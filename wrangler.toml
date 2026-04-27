@@ -1,0 +1,6 @@
+name = "atg"
+compatibility_date = "2024-09-23"
+
+[assets]
+directory = "./out"
+not_found_handling = "404-page"
