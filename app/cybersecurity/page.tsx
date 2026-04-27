@@ -27,7 +27,10 @@ export const metadata: Metadata = {
     title: "Cybersecurity Services | ATG",
     description:
       "Layered cybersecurity from firewall to SOC. Protect your business from modern threats.",
+    url: "https://atgfw.com/cybersecurity",
+    type: "website",
   },
+  alternates: { canonical: "https://atgfw.com/cybersecurity" },
 };
 
 const BOOKING_URL =

@@ -8,7 +8,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Legal Documents | ATG",
     description: "ATG service agreements and legal documents.",
+    url: "https://atgfw.com/legal",
+    type: "website",
   },
+  alternates: { canonical: "https://atgfw.com/legal" },
 };
 
 const BASE_URL = "https://atgfw.com/wp-content/uploads/";

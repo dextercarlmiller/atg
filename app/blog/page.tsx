@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     title: "Tech Bytes Blog | ATG",
     description:
       "IT insights, cybersecurity tips, and technology news for Midwest businesses.",
+    url: "https://atgfw.com/blog",
+    type: "website",
   },
+  alternates: { canonical: "https://atgfw.com/blog" },
 };
 
 // TODO: connect to WordPress REST API at https://atgfw.com/wp-json/wp/v2/posts or migrate blog to Next.js MDX

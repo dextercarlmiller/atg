@@ -24,7 +24,10 @@ export const metadata: Metadata = {
     title: "Physical Security & Surveillance | ATG",
     description:
       "Protect your people, property, and assets with intelligent security solutions monitored 24/7.",
+    url: "https://atgfw.com/security-surveillance",
+    type: "website",
   },
+  alternates: { canonical: "https://atgfw.com/security-surveillance" },
 };
 
 const BOOKING_URL =

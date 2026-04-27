@@ -17,7 +17,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Client Support | ATG",
     description: "Access ATG remote support, ticket portal, and contact information.",
+    url: "https://atgfw.com/support",
+    type: "website",
   },
+  alternates: { canonical: "https://atgfw.com/support" },
 };
 
 const BOOKING_URL =

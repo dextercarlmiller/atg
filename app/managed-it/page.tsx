@@ -30,7 +30,10 @@ export const metadata: Metadata = {
     title: "Managed IT Services | ATG",
     description:
       "Flat-rate managed IT with 24/7 monitoring, unlimited help desk, and complete network management.",
+    url: "https://atgfw.com/managed-it",
+    type: "website",
   },
+  alternates: { canonical: "https://atgfw.com/managed-it" },
 };
 
 const BOOKING_URL =

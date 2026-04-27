@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     title: "About ATG | Applied Technology Group",
     description:
       "Fort Wayne's trusted technology partner since 1996. Managed IT, cybersecurity, VoIP, and more across Indiana and Ohio.",
+    url: "https://atgfw.com/about",
+    type: "website",
   },
+  alternates: { canonical: "https://atgfw.com/about" },
 };
 
 const stats = [

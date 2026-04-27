@@ -23,7 +23,10 @@ export const metadata: Metadata = {
     title: "VoIP & Phone Systems | ATG",
     description:
       "Modern phone systems for modern businesses. Stay connected anywhere with crystal-clear VoIP.",
+    url: "https://atgfw.com/voip",
+    type: "website",
   },
+  alternates: { canonical: "https://atgfw.com/voip" },
 };
 
 const BOOKING_URL =

@@ -17,13 +17,30 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Managed IT Services | Applied Technology Group | Fort Wayne, IN",
+  title: {
+    default: "Managed IT Services | Applied Technology Group | Fort Wayne, IN",
+    template: "%s | Applied Technology Group",
+  },
   description:
     "ATG has provided managed IT, cybersecurity, VoIP, and security solutions to Midwest businesses since 1996. Schedule a free assessment today.",
+  metadataBase: new URL("https://atgfw.com"),
   openGraph: {
     siteName: "Applied Technology Group",
     locale: "en_US",
     type: "website",
+    title: "Managed IT Services | Applied Technology Group | Fort Wayne, IN",
+    description:
+      "ATG has provided managed IT, cybersecurity, VoIP, and security solutions to Midwest businesses since 1996. Schedule a free assessment today.",
+    url: "https://atgfw.com",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Applied Technology Group | Managed IT, Cybersecurity & Technology Solutions",
+    description:
+      "Fort Wayne's trusted IT partner since 1996. Managed IT, cybersecurity, VoIP, AI, and physical security for Midwest businesses.",
+  },
+  alternates: {
+    canonical: "https://atgfw.com",
   },
 };
 

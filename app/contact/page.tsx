@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     title: "Contact Us | ATG",
     description:
       "Reach ATG's team in Fort Wayne, Indianapolis, or Lima. Schedule a free assessment today.",
+    url: "https://atgfw.com/contact",
+    type: "website",
   },
+  alternates: { canonical: "https://atgfw.com/contact" },
 };
 
 const BOOKING_URL =

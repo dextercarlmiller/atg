@@ -25,7 +25,10 @@ export const metadata: Metadata = {
     title: "AI Services for Business | ATG",
     description:
       "Put artificial intelligence to work for your business. ATG makes AI practical for SMBs.",
+    url: "https://atgfw.com/ai-services",
+    type: "website",
   },
+  alternates: { canonical: "https://atgfw.com/ai-services" },
 };
 
 const BOOKING_URL =

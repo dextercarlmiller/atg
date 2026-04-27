@@ -21,7 +21,10 @@ export const metadata: Metadata = {
     title: "Co-Managed IT Services | ATG",
     description:
       "Already have an IT person? ATG works alongside your team — filling gaps, providing backup, and extending your capabilities.",
+    url: "https://atgfw.com/co-managed-it",
+    type: "website",
   },
+  alternates: { canonical: "https://atgfw.com/co-managed-it" },
 };
 
 const BOOKING_URL =
