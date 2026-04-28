@@ -2,6 +2,9 @@ name = "atg"
 main = "worker.js"
 compatibility_date = "2024-11-01"
 
+[build]
+command = "npm run build"
+
 [assets]
 binding = "ASSETS"
 directory = "./out"
